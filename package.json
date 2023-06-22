@@ -12,7 +12,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "requirements-check": "babel-node node-check-version.cjs",
+    "requirements-check": "babel-node node-check-version.cjs --run-yarn-version-check",
     "postinstall": "yarn requirements-check"
   },
   "devDependencies": {
