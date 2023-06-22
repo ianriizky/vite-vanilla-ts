@@ -4,9 +4,10 @@
   "engineStrict": true,
   "engines": {
     "node": "^19.6.1",
-    "npm": "^9.7.2"
+    "yarn": "^1.22.19"
   },
   "version": "1.0.0",
+  "description": "Learn to build TypeScript frontend application using Vite.",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -15,6 +16,22 @@
     "requirements-check": "babel-node node-check-version.cjs --run-yarn-version-check",
     "postinstall": "yarn requirements-check"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianriizky/vite-vanilla-ts.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "TypeScript",
+    "Frontend",
+    "Vite"
+  ],
+  "author": "Septianata Rizky Pratama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianriizky/vite-vanilla-ts/issues"
+  },
+  "homepage": "https://github.com/ianriizky/vite-vanilla-ts#readme",
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/node": "^7.22.5",
