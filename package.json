@@ -1,0 +1,27 @@
+{
+  "name": "ianriizky-vite-vanilla-ts",
+  "private": true,
+  "engineStrict": true,
+  "engines": {
+    "node": "^19.6.1",
+    "npm": "^9.7.2"
+  },
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "requirements-check": "babel-node node-check-version.cjs",
+    "postinstall": "yarn requirements-check"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/node": "^7.22.5",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
