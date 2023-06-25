@@ -33,12 +33,12 @@
   },
   "homepage": "https://github.com/ianriizky/vite-vanilla-ts#readme",
   "devDependencies": {
-    "@babel/core": "^7.22.5",
-    "@babel/node": "^7.22.5",
     "typescript": "^5.0.2",
     "vite": "^4.3.9"
   },
   "dependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/node": "^7.22.5",
     "minimist": "^1.2.8"
   }
 }
